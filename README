@@ -1,0 +1,31 @@
+OS Project 6
+Operating System Simulator - Memory Management
+
+Version Control:
+GitHub repo: https://github.com/STLnick/oss-memory-management
+
+
+To run the program:
+First run 'make' to build 'oss' and 'user_proc'
+
+Run command example:
+./oss
+
+(NOT IMPLEMENTED)
+- To specify the method for Memory Address Generation use the flag `m` with the program
+
+EX:	./oss -m R
+
+R = Random   - Will randomly generate a number from 0 to 32000
+W = Weighted - Will randomly generate a number from 0 to 32000 with the lower numbers having more weight therefore more likely to occur
+
+* If `-m` is not specified then 'Random' will be the method used
+
+- Use -h to get a basic description of the program
+
+What Works:
+
+What Doesn't Work:
+
+Commit Log:
+(All commits also on GitHub: https://github.com/STLnick/oss-memory-management)
